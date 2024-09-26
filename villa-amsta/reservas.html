@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icons/favicon.ico" type="image/x-icon">
+    <title>Villa Amistá</title>
+  </head>
+
+  <body>
+
+    <div id="interface">
+
+        <header id="cabecalho">
+
+            <div class="logo-principal">
+                <img src="img/icons/9480157 1.png" alt="figura-ilustrativa-de-uma-palmeira-em-linhas-pretas">
+                <p>Villa Amistá</p>
+            </div>
+
+
+
+            <nav class="menu-principal">
+              <a href="index.html">
+                
+                <p>Home</p>
+              </a>
+    
+              <a href="reservas.html">
+          
+                <p>Reservas</p>
+              </a>
+              <a href="fotos.html">
+                
+                <p>Fotos</p>
+              </a>
+              <a href="local.html">
+               
+                <p>Localização</p>
+              </a>
+              <a href="fale-conosco.html">
+                
+                <p>Fale conosco</p>
+              </a>
+
+
+            </nav>
+
+            
+        </header>
+
+       <main>
+            <h2>Faça a sua reserva:</h2>
+
+        <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Nome completo</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="digite seu nome">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Endereço de email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Número de quartos:</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Tipo do quarto:</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>Quarto de solteiro</option>
+                <option>Quarto de casal</option>
+                <option>Quarto de solteiro com suite</option>
+                <option>Quarto de casal com suite</option>
+              </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Quantos adultos?</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="digite o número de adultos">
+            </div>
+            <fieldset id="pedido">
+                <input type="checkbox" name="tPed" id="cPed" checked><label for="cPed">Café da manhã incluso</label></input>
+                <p><label for="tot">Preço Total: R$ <input type="text" name="ttot" id="Ctot" readonly placeholder="R$ 1.507"> </input></label> </p>
+              </fieldset>
+              <img src="img/icons/information.png" alt="" width="3%">
+              <div class="popup" onclick="togglePopup()">Como realizo o pagamento?
+                <span class="popuptext" id="myPopup">O pagamento é realizado no momento do check-in!</span>
+              </div>
+            <script src="details.js"></script>
+          </form>
+
+          <a href="reservado.html"><button>Reserve já</button></a>
+
+
+
+<footer>
+    <h4>Villa Amistá</h4>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

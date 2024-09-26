@@ -1,0 +1,19 @@
+.mapa {
+    display: flex;
+    width: 900px;
+    margin: auto;
+}
+
+p {
+    font-size: 15pt;
+    margin-left: 30px;
+}
+
+h1 {
+    font-size: 64pt;
+    text-align: center;
+}
+
+footer {
+    margin-top: 200px;
+}
